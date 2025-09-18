@@ -10,6 +10,8 @@ Bu proje, **DOM Manipülasyonu** ödevi kapsamında hazırlanmıştır. Amacı, 
 root/
 ├─ index.html           # Ana HTML dosyası
 ├─ index.css            # Genel stil dosyası
+├─ Image/
+│  ├─ Index.png
 ├─ components/
 │  ├─ card/
 │  │  ├─ card.js
@@ -147,17 +149,6 @@ HaberYapici(baslik, tarih, p1, p2, p3)
   document.querySelector('.articles').appendChild(article);
 </script>
 ```
-
----
-
-## ▶️ Çalıştırma
-
-```bash
-npm install   # Bağımlılıkları yükler
-npm run dev   # Projeyi geliştirme sunucusunda çalıştırır
-```
-
-Ardından tarayıcıda `http://localhost:5173` adresinde projeyi görebilirsiniz.
 
 ---
 
